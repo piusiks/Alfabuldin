@@ -1,2 +1,2 @@
 worker: python main.py
-web: python -m http.serer $PORT
+web: python -m http.serer $PORT || 4000 
